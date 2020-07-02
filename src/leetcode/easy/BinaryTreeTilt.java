@@ -1,6 +1,8 @@
-package leetcode.dfsbfs;
+package leetcode.easy;
 
 public class BinaryTreeTilt {
+    // url : https://leetcode.com/problems/binary-tree-tilt
+
     public class TreeNode {
         int val;
         TreeNode left;
@@ -11,7 +13,6 @@ public class BinaryTreeTilt {
         }
     }
 
-    // url : https://leetcode.com/problems/binary-tree-tilt
     int tilt = 0;
     public int findTilt(TreeNode root) {
         // tilt : |sum(왼쪽에 있는 전체 노드의 값) - sum(오른쪽에 있는 전체 노드의 값)| 들의 합

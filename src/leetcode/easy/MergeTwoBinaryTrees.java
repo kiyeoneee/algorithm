@@ -1,6 +1,8 @@
-package leetcode.dfsbfs;
+package leetcode.easy;
 
 public class MergeTwoBinaryTrees {
+    // url : https://leetcode.com/problems/merge-two-binary-trees/
+
     class TreeNode {
         int val;
         TreeNode left;
@@ -11,7 +13,6 @@ public class MergeTwoBinaryTrees {
         }
     }
 
-    // url : https://leetcode.com/problems/merge-two-binary-trees/
     public TreeNode mergeTrees(TreeNode t1, TreeNode t2) {
         return sum(t1, t2);
     }

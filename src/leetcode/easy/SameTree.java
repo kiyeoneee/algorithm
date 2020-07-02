@@ -1,6 +1,8 @@
-package leetcode.dfsbfs;
+package leetcode.easy;
 
 public class SameTree {
+    // url : https://leetcode.com/problems/same-tree/
+
     class TreeNode {
         int val;
         TreeNode left;
@@ -11,7 +13,6 @@ public class SameTree {
         }
     }
 
-    // url : https://leetcode.com/problems/same-tree/
     public boolean isSameTree(TreeNode p, TreeNode q) {
         if (p != null && q == null)
             return true;

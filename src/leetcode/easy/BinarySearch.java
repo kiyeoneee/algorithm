@@ -1,7 +1,8 @@
-package leetcode.search;
+package leetcode.easy;
 
 public class BinarySearch {
-    // https://leetcode.com/problems/binary-search/
+    // url : https://leetcode.com/problems/binary-search/
+
     public int search(int[] nums, int target) {
         int sIdx = 0, eIdx = nums.length - 1, idx = (sIdx + eIdx)/2;
 
