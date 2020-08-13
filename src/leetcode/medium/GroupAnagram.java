@@ -6,8 +6,6 @@ public class GroupAnagram {
     // url : https://leetcode.com/problems/group-anagrams/
 
     public List<List<String>> groupAnagrams(String[] strs) {
-        List<List<String>> result = new ArrayList<>();
-
         Map<String, List<String>> anagramGroup = new HashMap<>();
         char[] anagramKey;
 
@@ -28,10 +26,6 @@ public class GroupAnagram {
             anagramGroup.put(keyStr, tmp);
         }
 
-        for (String key : anagramGroup.keySet()) {
-            result.add(anagramGroup.get(key));
-        }
-
-        return result;
+        return new ArrayList<>(anagramGroup.values());
     }
 }
