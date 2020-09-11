@@ -2,7 +2,7 @@ package leetcode.easy;
 
 public class TwoSum {
     // url : https://leetcode.com/problems/two-sum
-    // TODO: 2020/09/10 BruteForce 방식이 아닌 방법으로 풀어보
+    // TODO: 2020/09/10 BruteForce 방식이 아닌 방법으로 풀어보자
 
     /**
      * Brute force
