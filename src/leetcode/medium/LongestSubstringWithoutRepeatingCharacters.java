@@ -5,7 +5,7 @@ import java.util.Set;
 
 public class LongestSubstringWithoutRepeatingCharacters {
     // url : https://leetcode.com/problems/longest-substring-without-repeating-characters
-    // TODO: 2020/09/11 BruteForce 방식이 아닌 방법으로 풀어보
+    // TODO: 2020/09/11 BruteForce 방식이 아닌 방법으로 풀어보기
 
     /**
      * Brute force
