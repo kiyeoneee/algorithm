@@ -1,4 +1,4 @@
-package programmers.programmingpractice.dfsbfs;
+package programmers;
 
 public class TargetNumber {
     // url : https://programmers.co.kr/learn/courses/30/lessons/43165

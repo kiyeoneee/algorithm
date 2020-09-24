@@ -1,4 +1,4 @@
-package programmers.programmingpractice.bf;
+package programmers;
 
 public class MockExam {
     // url : https://programmers.co.kr/learn/courses/30/lessons/42840
