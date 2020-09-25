@@ -2,6 +2,7 @@ package programmers;
 
 import java.util.HashSet;
 import java.util.Set;
+import java.util.TreeSet;
 
 public class PickTwoToAdd {
     /**
@@ -25,5 +26,5 @@ public class PickTwoToAdd {
         }
 
         return sumSet.stream().mapToInt(Integer::intValue).toArray();
-    }}
+    }
 }
