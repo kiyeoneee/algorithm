@@ -27,13 +27,8 @@ public class GenerateParentheses {
     }
 
     public void generateString(int left, int right, String paren, List<String> result) {
-        if (left == 0) {
-            StringBuffer sb = new StringBuffer();
-            for (int i = right; i > 0; i--) {
-                sb.append(RIGHT_FORMAT);
-            }
-            result.add(paren + sb.toString());
-
+        if (left == 0 && right == 0) {
+            result.add(paren);
             return;
         }
 
