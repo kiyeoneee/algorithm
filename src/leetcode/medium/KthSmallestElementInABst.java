@@ -23,7 +23,7 @@ public class KthSmallestElementInABst {
     }
 
     private int helper(TreeNode root, int k, int idx) {
-        if (root == null) {
+        if (root == null || idx >= k) {
             return idx;
         }
 
